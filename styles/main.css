@@ -12,7 +12,7 @@ body {
   background-repeat: repeat-y;
   overflow: hidden;
   background-position: center center;
-  background-size:contain ;
+  background-size:auto ;
 }
 
 .time-range {
