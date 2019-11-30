@@ -10,7 +10,7 @@ body {
   /* background-image: url(http://www.graciaviva.cat/png/big/9/99047_black-line-transparent-background.png); */
   background-image: url(../images/dash-line-png-3.png);
   background-repeat: repeat-y;
-  overflow: visible;
+  overflow: hidden;
   background-position: center center;
   background-size:contain ;
 }
