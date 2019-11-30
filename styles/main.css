@@ -7,10 +7,12 @@ body {
 }
 
 .time-range-container {
-  background-image: url(http://www.graciaviva.cat/png/big/9/99047_black-line-transparent-background.png);
-  background-repeat:no-repeat;
+  /* background-image: url(http://www.graciaviva.cat/png/big/9/99047_black-line-transparent-background.png); */
+  background-image: url(../images/dash-line-png-3.png);
+  background-repeat: repeat-y;
+  overflow: hidden;
   background-position: center center;
-  background-size:cover ;
+  background-size:contain ;
 }
 
 .time-range {
@@ -27,3 +29,6 @@ body {
   width: 100%;
 }
 
+.timeline-section {
+  max-height: 20%;
+}

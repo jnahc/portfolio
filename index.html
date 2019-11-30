@@ -31,7 +31,10 @@
         </div>
       </div>
     </div>
-    <!-- INTO SECTION -->
+    <!-- INTRO SECTION -->
+    <div class="section-title">
+      <h2 class="lead">Introduction</h2>
+    </div>
     <div id="bio-intro">
       <div class="card">
         <div class="row">
@@ -47,7 +50,10 @@
       </div>
     </div>
     <!-- SKILL SECTION  -->
-    <div id="skills" class="mt-4">
+    <div class="section-title mt-5">
+      <h2 class="lead">Technology Stacks</h2>
+    </div>
+    <div id="skills" class="mt-1">
       <!-- <div class="card">
         <ul class="list-group list-group-flush list-group-horizontal-sm">
           <li class="list-group-item"><i class="devicon-javascript-plain"></i></li>
@@ -78,7 +84,10 @@
       </div>
     </div>
     <!-- TIMELINE SECTION  -->
-    <div id="timeline" class="card mt-3">
+    <div class="section-title mt-5">
+      <h2 class="lead">Timeline</h2>
+    </div>
+    <div id="timeline" class="card mt-1">
       <!-- NOVEMBER TIMELINE SECTION  -->
       <div id="november" class="timeline-section card border-bottom-0">
         <div class="row card-body ">
@@ -107,7 +116,7 @@
         </div>
       </div>
       <!-- OCTOBER TIMELINE SECTION   -->
-      <div id="october" class="timeline-section card border-top-0">
+      <div id="october" class="timeline-section card border-top-0 border-bottom-0">
         <div class="row card-body ">
           <div class="col d-flex align-items-center justify-content-center time-range-container">
             <div class="time-range card-title">October 2019</div>
@@ -133,11 +142,11 @@
           </div>
         </div>
       </div>
-      <div id="october" class="timeline-section"></div>
-      <div id="september" class="timeline-section"></div>
+      <!-- <div id="october" class="timeline-section"></div>
+      <div id="september" class="timeline-section"></div> -->
       <!-- BOLD TIMELINE SECTION  -->
-      <div id="bold" class="timeline-section">
-        <div class="row card-body ">
+      <div id="bold" class="timeline-section border-top-0">
+        <div class="row card-body  ">
           <div class="col d-flex align-items-center justify-content-center time-range-container">
             <div class="time-range card-title">2012 - 2019</div>
             <!-- <div class="timeline-line"></div> -->
@@ -196,17 +205,16 @@
           </div>
           <div class="col-10 ">
             <div class="time-details">
-              <div class="row">
-                <div class="col-md-8">
-                  <div class="card m-3">
-                    <div class="card-body">
-                      <div class="card-title">Single Grain</div>
+              <div class="row ml-3">
+                <div class="container my-3">
+                  <div class="card ml-n3 mr-3">
+                    <div class="card-body ">
+                      <img src="https://picsum.photos/id/853/250/250" class="float-right img-fluid max-width: 25% collapse multi-collapse" id="multiCollapse2" alt="picsum">
+                      <div class="card-title">Single Grain<span data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse1 multiCollapse2">See More:</span></div>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text collapse multi-collapse" id="multiCollapse1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                   </div>
-                </div>
-                <div class="col-md-4">
-                  <img src="https://picsum.photos/id/853/250/250" class="img-fluid height:auto float-right p-3" alt="picsum">
                 </div>
               </div>
             </div>
@@ -225,12 +233,13 @@
                 <div class="col-md-8">
                   <div class="card m-3">
                     <div class="card-body">
-                      <div class="card-title">SJSU</div>
+                      <div class="card-title">SJSU <span data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapse1 multiCollapse2">See More:</span></div>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text collapse multi-collapse" id="multiCollapse1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                   <img src="https://picsum.photos/id/853/250/250" class="img-fluid height:auto float-right p-3" alt="picsum">
                 </div>
               </div>
@@ -239,11 +248,14 @@
         </div> 
       </div>
     </div>
-    <div id="connect">
-        <ul class="list-group list-group-horizontal">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
+    <div class="section-title mt-5">
+      <h2 class="lead">Connect</h2>
+    </div>
+    <div id="connect" class="mt-1">
+        <ul class="list-group list-group-horizontal d-flex d-row justify-content-around">
+            <li class="list-group-item flex-fill">Cras justo odio</li>
+            <li class="list-group-item flex-fill">Dapibus ac facilisis in</li>
+            <li class="list-group-item flex-fill">Morbi leo risus</li>
           </ul>
     </div>
   </div>
