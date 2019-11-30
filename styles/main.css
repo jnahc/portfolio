@@ -1,11 +1,14 @@
+
 body {
   background: pink;
 }
 
+/* SKILLS SECTION */
 #skills {
   font-size: 4.5rem;
 }
 
+/* TIME LINE SECTION */
 .time-range-container {
   /* background-image: url(http://www.graciaviva.cat/png/big/9/99047_black-line-transparent-background.png); */
   background-image: url(../images/dash-line-png-3.png);
@@ -32,3 +35,22 @@ body {
 .timeline-section {
   max-height: 20%;
 }
+
+/* MEDIA QUERIES SECTION */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+  .img-fluid {
+    width:100%
+  }
+
+  .time-range-container {
+    padding: 2px;
+  }
+
+  .time-range.card-title {
+    font-size: 0.75rem ;
+  }
+
+}
+
