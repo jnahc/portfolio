@@ -1,3 +1,29 @@
 body {
   background: pink;
 }
+
+#skills {
+  font-size: 4.5rem;
+}
+
+.time-range-container {
+  background-image: url(http://www.graciaviva.cat/png/big/9/99047_black-line-transparent-background.png);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size:cover ;
+}
+
+.time-range {
+  background:wheat;
+}
+
+.time-details {
+  background:wheat;
+}
+
+.timeline-line {
+  border: 2px;
+  height: 100%;
+  width: 100%;
+}
+
