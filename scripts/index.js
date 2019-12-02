@@ -2,7 +2,17 @@
 
 // DEV ICON CASCADE
 $("#skills").hover(function(){
-  $(".devicon-javascript").toggleClass('')
+  $(".devicon-javascript-plain").addClass('bounce-in-fwd1')
+  $(".devicon-python-plain-wordmark").toggleClass('bounce-in-fwd2')
+  $(".devicon-react-original-wordmark").toggleClass('bounce-in-fwd3')
+  $(".devicon-nodejs-plain-wordmark").toggleClass('bounce-in-fwd4')
+  $(".devicon-express-original-wordmark").toggleClass('bounce-in-fwd5')
+  $(".devicon-django-line-wordmark").toggleClass('bounce-in-fwd6')
+  $(".devicon-mongodb-plain-wordmark").toggleClass('bounce-in-fwd7')
+  $(".devicon-postgresql-plain-wordmark").toggleClass('bounce-in-fwd8')
+  $(".devicon-html5-plain-wordmark").toggleClass('bounce-in-fwd9')
+  $(".devicon-css3-plain-wordmark").toggleClass('bounce-in-fwd10')
+  $(".devicon-jquery-plain-wordmark").toggleClass('bounce-in-fwd11')
 })
 
 // PICTURE COLORIZE SECTION
