@@ -245,8 +245,8 @@ h2 {
 /* BACKGROUND GRADIENT SECTION */
 /* CSS BG GENERATOR https://cssgradient.io/ */
 body {
-  background: rgb(3,3,3);
-  background: linear-gradient(300deg, rgba(3,3,3,1) 0%, rgba(8,28,9,1) 76%, rgba(33,33,33,1) 100%);
+  background: rgb(25,25,25);
+  background: linear-gradient(300deg, rgba(25,25,25,1) 0%, rgba(8,28,9,1) 76%, rgba(33,33,33,1) 100%);
 }
 
 /* IMAGE EFFECT SECTION */
