@@ -1,5 +1,10 @@
 // console.log('yup')
 
+// DEV ICON CASCADE
+$("#skills").hover(function(){
+  $(".devicon-javascript").toggleClass('')
+})
+
 // PICTURE COLORIZE SECTION
 
 // SELF PIC
