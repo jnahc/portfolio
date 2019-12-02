@@ -1,4 +1,4 @@
-# portfolio-site-11-2019
+# Portfolio Site
 
 ## Planning Materials
 * https://trello.com/b/HKiFIkvo/self-portfolip
