@@ -1,4 +1,9 @@
 
+/* Text Sizes SECTION */
+.card-title, dt {
+  font-size: 1.3em
+}
+
 /* SKILLS SECTION */
 #skills {
   font-size: 4.5rem;
