@@ -30,12 +30,13 @@
 
 /* IMAGE EFFECT SECTION */
 img {
-  filter: url(filters.svg#grayscale);
+  filter: url(filters.svg#grayscale);  
   /* Firefox 3.5+ */
   filter: gray;
   /* IE6-9 */
   -webkit-filter: grayscale(1);
   /* Google Chrome & Safari 6+ */
+  transition: all .75s ease-in-out;
 }
 
 img:hover {
@@ -45,7 +46,7 @@ img:hover {
 
 }
 
-img-color {
+.img-color {
   filter: none;
   -webkit-filter: none;
   transition: all .75s ease-in-out;
