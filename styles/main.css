@@ -132,10 +132,16 @@ body {
 
 /* DROP SHADOW SECTION  */
 
-#title, #bio-intro, #skills, #timeline, #connect {
+#title, #bio-intro, #skills, #timeline {
   -webkit-box-shadow: 13px 26px 64px -13px rgba(0,0,0,0.41);
   -moz-box-shadow: 13px 26px 64px -13px rgba(0,0,0,0.41);
   box-shadow: 13px 26px 64px -13px rgba(0,0,0,0.41);
+}
+
+#connect {
+  box-shadow: -6px 6px 84px -18px rgba(105,105,105,0.42);
+  -webkit-box-shadow: -6px 6px 84px -18px rgba(105,105,105,0.42);
+  -moz-box-shadow: -6px 6px 84px -18px rgba(105,105,105,0.42);
 }
 
 /* Text  SECTION */
@@ -236,13 +242,14 @@ h2 {
 
 
 
-/* IMAGE EFFECT SECTION */
-
+/* BACKGROUND GRADIENT SECTION */
 /* CSS BG GENERATOR https://cssgradient.io/ */
 body {
   background: rgb(3,3,3);
-  background: linear-gradient(300deg, rgba(3,3,3,1) 0%, rgba(5,17,5,1) 76%, rgba(33,33,33,1) 100%);
-  }
+  background: linear-gradient(300deg, rgba(3,3,3,1) 0%, rgba(8,28,9,1) 76%, rgba(33,33,33,1) 100%);
+}
+
+/* IMAGE EFFECT SECTION */
 
 img {
   filter: url(filters.svg#grayscale);  
