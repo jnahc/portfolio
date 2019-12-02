@@ -1,7 +1,7 @@
 // console.log('yup')
 
 // DEV ICON CASCADE
-$("#skills").hover(function(){
+$("#skills").ready(function(){
   $(".devicon-javascript-plain").addClass('bounce-in-fwd1')
   $(".devicon-python-plain-wordmark").toggleClass('bounce-in-fwd2')
   $(".devicon-react-original-wordmark").toggleClass('bounce-in-fwd3')
