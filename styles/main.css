@@ -12,7 +12,7 @@
  * animation bounce-in-fwd
  * ----------------------------------------
  */
- @-webkit-keyframes bounce-in-fwd {
+@-webkit-keyframes bounce-in-fwd {
   0% {
     -webkit-transform: scale(0);
             transform: scale(0);
@@ -117,7 +117,9 @@
   }
 }
 
-
+body {
+  font-size: 1.1em;
+}
 
 /* TITLE SECTION */
 #title-contact {
@@ -128,9 +130,18 @@
   padding-left: 10px;
 }
 
+/* DROP SHADOW SECTION  */
+
+#title, #bio-intro, #skills, #timeline, #connect {
+  -webkit-box-shadow: 13px 26px 64px -13px rgba(0,0,0,0.41);
+  -moz-box-shadow: 13px 26px 64px -13px rgba(0,0,0,0.41);
+  box-shadow: 13px 26px 64px -13px rgba(0,0,0,0.41);
+}
+
 /* Text  SECTION */
 .card-title, dt {
-  font-size: 1.3em
+  font-size: 1.2em;
+  text-shadow: 3px 3px 4px rgba(229, 229, 229, .2);
 }
 
 h1 {
@@ -142,6 +153,7 @@ h1 {
 }
 
 h2 {
+  font-size: 1.15em;
   text-shadow: -5px -3px 10px rgba(58,141,131,0.35);
 }
 
@@ -218,7 +230,20 @@ h2 {
   padding:8px
 }
 
+#november-2019 .col-10, #september-october-2019 .col-10 {
+  border-bottom: 1px solid #212121
+}
+
+
+
 /* IMAGE EFFECT SECTION */
+
+/* CSS BG GENERATOR https://cssgradient.io/ */
+body {
+  background: rgb(3,3,3);
+  background: linear-gradient(300deg, rgba(3,3,3,1) 0%, rgba(5,17,5,1) 76%, rgba(33,33,33,1) 100%);
+  }
+
 img {
   filter: url(filters.svg#grayscale);  
   /* Firefox 3.5+ */
