@@ -273,17 +273,17 @@ img:hover {
   transition: all .75s ease-in-out;
 }
 
-#animated-jeff-container {
+/* #animated-jeff-container {
   margin-top: -10%;
   margin-left: 80%;
   margin-bottom: 10px;
   padding-bottom: 10%;
-} 
+}  */
 
 #animated-jeff {
   max-width: 150px;
-  height: auto;
-  position: absolute;
+  /* height: auto; */
+  /* position: absolute; */
   z-index: 1;
 }
 
