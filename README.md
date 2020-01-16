@@ -1,6 +1,6 @@
 # Portfolio Site
 
-https://jnahc.github.io/portfolio-site-11-2019/
+https://jnahc.github.io/portfolio/
 
 ## Planning Materials
 * https://trello.com/b/HKiFIkvo/self-portfolip
