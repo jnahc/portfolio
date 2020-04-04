@@ -23,6 +23,12 @@ $("#bio-intro").hover(function(){
   $("#jeff-pic").toggleClass('img-color')
 });
 
+// DECEMBER PROJECT PICS
+$("#december-2019").hover(function(){
+  console.log('december-2019 section')
+  $(".december-project-pictures").toggleClass('img-color')
+});
+
 // NOVEMBER PROJECT PICS
 $("#november-2019").hover(function(){
   console.log('november-2019 section')
